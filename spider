@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-16T12:52:59.605Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42" etag="DGr2Wb7_tp6h2gVA9h5N" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-16T12:55:50.759Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.42" etag="lzs_yCIQWws0g7WP4AnH" version="21.3.2" type="github">
   <diagram name="第 1 页" id="WecYeIjV2U0Btbd_Fl0B">
     <mxGraphModel dx="1000" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -30,6 +30,24 @@
         </mxCell>
         <mxCell id="ue3ap7Cpcd1fJi5CroWZ-10" value="数据库存储" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="344" y="214" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ue3ap7Cpcd1fJi5CroWZ-11" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/CustomDomain.svg;" vertex="1" parent="1">
+          <mxGeometry x="728" y="215" width="90" height="75.6" as="geometry" />
+        </mxCell>
+        <mxCell id="ue3ap7Cpcd1fJi5CroWZ-12" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Connection.svg;" vertex="1" parent="1">
+          <mxGeometry x="580" y="230.8" width="70" height="43.4" as="geometry" />
+        </mxCell>
+        <mxCell id="ue3ap7Cpcd1fJi5CroWZ-13" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=15.33;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="515" y="240" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ue3ap7Cpcd1fJi5CroWZ-14" value="WebSocket服务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="555" y="188" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ue3ap7Cpcd1fJi5CroWZ-18" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=15.33;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="242.5" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ue3ap7Cpcd1fJi5CroWZ-19" value="Echarts展示" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="729" y="183" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
