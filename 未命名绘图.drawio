@@ -1,23 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2023-06-30T14:09:57.458Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="-H6rclVcOL2BtQd28Edi" version="21.5.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-06-30T14:10:58.391Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="XavmfkY2YVd7huhQs9oU" version="21.5.0" type="github" pages="3">
   <diagram id="JUidYBW1GJWZsKxiZpDq" name="第 1 页">
     <mxGraphModel dx="1008" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="DiUsqnAPW3JsSKyYud-B-1" value="校园内网" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+        <mxCell id="DiUsqnAPW3JsSKyYud-B-1" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;校园内网&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="200" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DiUsqnAPW3JsSKyYud-B-2" value="外部网络1" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+        <mxCell id="DiUsqnAPW3JsSKyYud-B-2" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;外部网络1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="470" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DiUsqnAPW3JsSKyYud-B-3" value="外部网络2" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+        <mxCell id="DiUsqnAPW3JsSKyYud-B-3" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;外部网络2&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="200" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DiUsqnAPW3JsSKyYud-B-4" value="外部网络3" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+        <mxCell id="DiUsqnAPW3JsSKyYud-B-4" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;外部网络3&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="470" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DiUsqnAPW3JsSKyYud-B-8" value="动态路由" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="370" y="337.5" width="70" height="30" as="geometry" />
+        <mxCell id="DiUsqnAPW3JsSKyYud-B-8" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;动态路由&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="365" y="337.5" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DiUsqnAPW3JsSKyYud-B-13" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" parent="1">
           <mxGeometry x="330" y="367.5" width="140" height="25" as="geometry" />
@@ -28,11 +28,11 @@
         <mxCell id="DiUsqnAPW3JsSKyYud-B-17" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;fillStyle=hatch;" vertex="1" parent="1">
           <mxGeometry x="515" y="210" width="30" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="DiUsqnAPW3JsSKyYud-B-20" value="静态路由" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="265" y="248" width="70" height="30" as="geometry" />
+        <mxCell id="DiUsqnAPW3JsSKyYud-B-20" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;静态路由&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="265" y="260" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DiUsqnAPW3JsSKyYud-B-21" value="静态路由" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="545" y="248" width="70" height="30" as="geometry" />
+        <mxCell id="DiUsqnAPW3JsSKyYud-B-21" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;静态路由&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="540" y="255" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
