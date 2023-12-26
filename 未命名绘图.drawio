@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-26T03:13:54.960Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="xJ6OPUgiWaAT6k0gURc1" version="22.1.11" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-12-26T05:01:43.895Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="J34naybtWccz0od4BCNz" version="22.1.11" type="github" pages="4">
   <diagram id="JUidYBW1GJWZsKxiZpDq" name="第 1 页">
     <mxGraphModel dx="1008" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -774,7 +774,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="j7AQ6ctPJv8ku2nUo4HH" name="第 4 页">
-    <mxGraphModel dx="1008" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="695" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -819,6 +819,38 @@
         </mxCell>
         <mxCell id="tBKhYygWFLnicOI9DKka-20" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="140" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tBKhYygWFLnicOI9DKka-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tBKhYygWFLnicOI9DKka-22" target="tBKhYygWFLnicOI9DKka-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tBKhYygWFLnicOI9DKka-22" value="开始" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="333.34" y="200" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tBKhYygWFLnicOI9DKka-23" value="初始化" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="333.34" y="290" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tBKhYygWFLnicOI9DKka-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tBKhYygWFLnicOI9DKka-24" target="tBKhYygWFLnicOI9DKka-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tBKhYygWFLnicOI9DKka-24" value="等待按键按下" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="333.34" y="370" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tBKhYygWFLnicOI9DKka-25" value="开始" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="260" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tBKhYygWFLnicOI9DKka-26" value="是否按下" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="1">
+          <mxGeometry x="330" y="450" width="116.67" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tBKhYygWFLnicOI9DKka-29" value="" style="elbow=vertical;endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;" edge="1" parent="1" source="tBKhYygWFLnicOI9DKka-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="333.34" y="465" as="sourcePoint" />
+            <mxPoint x="390" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="485" />
+              <mxPoint x="247" y="480" />
+              <mxPoint x="250" y="360" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
