@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T07:33:30.663Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="bU9JgFk_utrQweRJHa1f" version="24.4.10" type="github" pages="20">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.16" pages="20">
   <diagram id="7Zte6hWkiLV5LWk3ESpg" name="毕业设计">
     <mxGraphModel dx="2840" dy="1924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3345,33 +3345,84 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pDXjDzbIlArdTiYY4uM-" name="第 20 页">
-    <mxGraphModel dx="1008" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1008" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mecoCirxGaOIIzd6O3vg-8" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="mecoCirxGaOIIzd6O3vg-8" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="110" y="110" width="670" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="mecoCirxGaOIIzd6O3vg-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mecoCirxGaOIIzd6O3vg-1" target="mecoCirxGaOIIzd6O3vg-2">
+        <mxCell id="mecoCirxGaOIIzd6O3vg-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mecoCirxGaOIIzd6O3vg-1" target="mecoCirxGaOIIzd6O3vg-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mecoCirxGaOIIzd6O3vg-1" value="设定六个轴的角度状态标志位，初始值均设置为合格" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mecoCirxGaOIIzd6O3vg-1" value="设定六个轴的角度状态标志位，初始值均设置为合格" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mecoCirxGaOIIzd6O3vg-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mecoCirxGaOIIzd6O3vg-2" target="mecoCirxGaOIIzd6O3vg-4">
+        <mxCell id="mecoCirxGaOIIzd6O3vg-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mecoCirxGaOIIzd6O3vg-2" target="mecoCirxGaOIIzd6O3vg-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mecoCirxGaOIIzd6O3vg-2" value="调用检测函数，检测当前状态是否合格" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mecoCirxGaOIIzd6O3vg-2" value="调用检测函数，检测当前状态是否合格" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mecoCirxGaOIIzd6O3vg-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mecoCirxGaOIIzd6O3vg-4" target="mecoCirxGaOIIzd6O3vg-6">
+        <mxCell id="mecoCirxGaOIIzd6O3vg-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mecoCirxGaOIIzd6O3vg-4" target="mecoCirxGaOIIzd6O3vg-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mecoCirxGaOIIzd6O3vg-4" value="如果状态不合格，则上传数据并更新对应轴状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mecoCirxGaOIIzd6O3vg-4" value="如果状态不合格，则上传数据并更新对应轴状态" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mecoCirxGaOIIzd6O3vg-6" value="根据轴的状态标志位，更新页面UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mecoCirxGaOIIzd6O3vg-6" value="根据轴的状态标志位，更新页面UI" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H1TKlSGXts48CXsnAV5T-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H1TKlSGXts48CXsnAV5T-1" target="H1TKlSGXts48CXsnAV5T-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H1TKlSGXts48CXsnAV5T-1" value="定义数据格式" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H1TKlSGXts48CXsnAV5T-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H1TKlSGXts48CXsnAV5T-2" target="H1TKlSGXts48CXsnAV5T-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H1TKlSGXts48CXsnAV5T-2" value="定义接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H1TKlSGXts48CXsnAV5T-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H1TKlSGXts48CXsnAV5T-4" target="H1TKlSGXts48CXsnAV5T-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H1TKlSGXts48CXsnAV5T-4" value="接口实现" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H1TKlSGXts48CXsnAV5T-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H1TKlSGXts48CXsnAV5T-6" target="H1TKlSGXts48CXsnAV5T-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H1TKlSGXts48CXsnAV5T-6" value="控制器实现" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H1TKlSGXts48CXsnAV5T-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H1TKlSGXts48CXsnAV5T-8" target="H1TKlSGXts48CXsnAV5T-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H1TKlSGXts48CXsnAV5T-8" value="注册服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H1TKlSGXts48CXsnAV5T-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H1TKlSGXts48CXsnAV5T-10" target="H1TKlSGXts48CXsnAV5T-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H1TKlSGXts48CXsnAV5T-10" value="注册控制器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H1TKlSGXts48CXsnAV5T-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H1TKlSGXts48CXsnAV5T-12" target="H1TKlSGXts48CXsnAV5T-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H1TKlSGXts48CXsnAV5T-12" value="连接数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H1TKlSGXts48CXsnAV5T-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H1TKlSGXts48CXsnAV5T-14" target="H1TKlSGXts48CXsnAV5T-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H1TKlSGXts48CXsnAV5T-14" value="配置中间件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H1TKlSGXts48CXsnAV5T-16" value="运行项目" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="620" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
