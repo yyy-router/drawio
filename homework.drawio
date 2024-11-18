@@ -607,6 +607,36 @@
             <mxPoint x="700" y="1074.54" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="bdEM78xd0J0tFQniF7IW-12" value="DNS解析模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1414.54" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bdEM78xd0J0tFQniF7IW-13" value="网络通信模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1414.54" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bdEM78xd0J0tFQniF7IW-14" value="图形化展示模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1414.54" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bdEM78xd0J0tFQniF7IW-15" value="系统功能" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bdEM78xd0J0tFQniF7IW-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.011;exitY=0.603;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="bdEM78xd0J0tFQniF7IW-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="378.68000000000006" y="1320.7199999999996" as="sourcePoint" />
+            <mxPoint x="180" y="1274.54" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bdEM78xd0J0tFQniF7IW-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="bdEM78xd0J0tFQniF7IW-15" target="bdEM78xd0J0tFQniF7IW-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="1344.5399999999997" as="sourcePoint" />
+            <mxPoint x="250" y="1324.54" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bdEM78xd0J0tFQniF7IW-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.012;exitY=0.591;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="bdEM78xd0J0tFQniF7IW-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="501.44000000000005" y="1319.9999999999998" as="sourcePoint" />
+            <mxPoint x="690" y="1314.54" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
