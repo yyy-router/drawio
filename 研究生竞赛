@@ -216,15 +216,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nb3tSL9tyPAQXpHgrErJ" name="第 3 页">
-    <mxGraphModel dx="1473" dy="816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2504" dy="1388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="DdMH3pK9cergZKWn6LMu-1" value="客户端" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="20" y="932" width="500" height="104" as="geometry" />
+        <mxCell id="DdMH3pK9cergZKWn6LMu-1" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1240" width="500" height="104" as="geometry" />
         </mxCell>
         <mxCell id="DdMH3pK9cergZKWn6LMu-2" value="服务器端" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="20" y="603" width="517" height="256" as="geometry" />
+          <mxGeometry x="557" y="830" width="517" height="256" as="geometry" />
         </mxCell>
         <mxCell id="DdMH3pK9cergZKWn6LMu-3" value="处理层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="557" y="324" width="824" height="383" as="geometry" />
@@ -248,7 +248,7 @@
           <mxGeometry x="602" y="476" width="178" height="54" as="geometry" />
         </mxCell>
         <mxCell id="DdMH3pK9cergZKWn6LMu-10" value="云端语音模型" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1172" y="628" width="156" height="54" as="geometry" />
+          <mxGeometry x="1190" y="960" width="156" height="54" as="geometry" />
         </mxCell>
         <mxCell id="DdMH3pK9cergZKWn6LMu-11" value="数据上传模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="890" y="476" width="156" height="54" as="geometry" />
@@ -260,19 +260,19 @@
           <mxGeometry x="1172" y="476" width="156" height="54" as="geometry" />
         </mxCell>
         <mxCell id="DdMH3pK9cergZKWn6LMu-14" value="MongoDB 数据存储" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="275" y="780" width="193" height="54" as="geometry" />
+          <mxGeometry x="825" y="997" width="193" height="54" as="geometry" />
         </mxCell>
         <mxCell id="DdMH3pK9cergZKWn6LMu-15" value="Node.js 后端 API" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="134" y="628" width="179" height="54" as="geometry" />
+          <mxGeometry x="684" y="845" width="179" height="54" as="geometry" />
         </mxCell>
         <mxCell id="DdMH3pK9cergZKWn6LMu-16" value="家属通知服务" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="69" y="780" width="156" height="54" as="geometry" />
+          <mxGeometry x="619" y="997" width="156" height="54" as="geometry" />
         </mxCell>
         <mxCell id="DdMH3pK9cergZKWn6LMu-17" value="手机端App" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="69" y="957" width="135" height="54" as="geometry" />
+          <mxGeometry x="610" y="1265" width="135" height="54" as="geometry" />
         </mxCell>
         <mxCell id="DdMH3pK9cergZKWn6LMu-18" value="Web 端可视化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="326" y="957" width="159" height="54" as="geometry" />
+          <mxGeometry x="880" y="1265" width="159" height="54" as="geometry" />
         </mxCell>
         <mxCell id="DdMH3pK9cergZKWn6LMu-19" value="采集数据" style="curved=1;startArrow=none;endArrow=block;exitX=0.05;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="DdMH3pK9cergZKWn6LMu-5" target="DdMH3pK9cergZKWn6LMu-6">
           <mxGeometry relative="1" as="geometry">
@@ -366,39 +366,45 @@
         <mxCell id="DdMH3pK9cergZKWn6LMu-32" value="存储数据" style="curved=1;startArrow=none;endArrow=block;exitX=0.93;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="DdMH3pK9cergZKWn6LMu-15" target="DdMH3pK9cergZKWn6LMu-14">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="372" y="707" />
+              <mxPoint x="922" y="924" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="DdMH3pK9cergZKWn6LMu-33" value="推送警报" style="curved=1;startArrow=none;endArrow=block;exitX=0.28;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="DdMH3pK9cergZKWn6LMu-15" target="DdMH3pK9cergZKWn6LMu-16">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="147" y="707" />
+              <mxPoint x="697" y="924" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="DdMH3pK9cergZKWn6LMu-34" value="消息推送" style="curved=1;startArrow=none;endArrow=block;exitX=0.61;exitY=1.01;entryX=0.67;entryY=0.01;rounded=0;" edge="1" parent="1" source="DdMH3pK9cergZKWn6LMu-16" target="DdMH3pK9cergZKWn6LMu-17">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="181" y="859" />
-              <mxPoint x="181" y="932" />
+              <mxPoint x="731" y="1076" />
+              <mxPoint x="731" y="1149" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="DdMH3pK9cergZKWn6LMu-35" value="数据展示" style="curved=1;startArrow=none;endArrow=block;exitX=0.59;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="DdMH3pK9cergZKWn6LMu-14" target="DdMH3pK9cergZKWn6LMu-18">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="406" y="859" />
+              <mxPoint x="956" y="1076" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="DdMH3pK9cergZKWn6LMu-36" value="数据展示" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.84;entryX=0.33;entryY=0.01;rounded=0;" edge="1" parent="1" source="DdMH3pK9cergZKWn6LMu-14" target="DdMH3pK9cergZKWn6LMu-17">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="91" y="859" />
-              <mxPoint x="91" y="932" />
+              <mxPoint x="641" y="1076" />
+              <mxPoint x="641" y="1149" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="DdMH3pK9cergZKWn6LMu-37" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;硬&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;件&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="414" y="20" width="96" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="DdMH3pK9cergZKWn6LMu-38" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;软&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;件&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="414" y="810" width="96" height="540" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
