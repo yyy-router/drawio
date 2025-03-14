@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.1.0" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.0" pages="5">
   <diagram name="第 1 页" id="7mllZ_0TeOHgUEmEDbBR">
     <mxGraphModel dx="1252" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -405,6 +405,174 @@
         </mxCell>
         <mxCell id="DdMH3pK9cergZKWn6LMu-38" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;软&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;件&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="414" y="810" width="96" height="540" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ZK6vlV6fGuCGv9TRTpTq" name="第 4 页">
+    <mxGraphModel dx="2163" dy="2574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Zi1rQd0fxXlFstQWKpVU-1" value="麦克风输入" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="308" y="-140" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Zi1rQd0fxXlFstQWKpVU-2" value="语音采集" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="331" y="-36" width="94" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Zi1rQd0fxXlFstQWKpVU-3" value="语音激活检测" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="303" y="68" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Zi1rQd0fxXlFstQWKpVU-4" value="STT转换文本" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="303" y="291" width="150" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Zi1rQd0fxXlFstQWKpVU-5" value="NLP处理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="318" y="395" width="119" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Zi1rQd0fxXlFstQWKpVU-6" value="生成响应文本" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="300" y="499" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Zi1rQd0fxXlFstQWKpVU-7" value="TTS转换语音" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="303" y="603" width="150" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Zi1rQd0fxXlFstQWKpVU-8" value="扬声器输出" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="308" y="707" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Zi1rQd0fxXlFstQWKpVU-9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Zi1rQd0fxXlFstQWKpVU-1" target="Zi1rQd0fxXlFstQWKpVU-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zi1rQd0fxXlFstQWKpVU-10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Zi1rQd0fxXlFstQWKpVU-2" target="Zi1rQd0fxXlFstQWKpVU-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zi1rQd0fxXlFstQWKpVU-11" value="VAD触发" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Zi1rQd0fxXlFstQWKpVU-3" target="Zi1rQd0fxXlFstQWKpVU-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zi1rQd0fxXlFstQWKpVU-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Zi1rQd0fxXlFstQWKpVU-4" target="Zi1rQd0fxXlFstQWKpVU-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zi1rQd0fxXlFstQWKpVU-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Zi1rQd0fxXlFstQWKpVU-5" target="Zi1rQd0fxXlFstQWKpVU-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zi1rQd0fxXlFstQWKpVU-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Zi1rQd0fxXlFstQWKpVU-6" target="Zi1rQd0fxXlFstQWKpVU-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zi1rQd0fxXlFstQWKpVU-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="Zi1rQd0fxXlFstQWKpVU-7" target="Zi1rQd0fxXlFstQWKpVU-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="M_WUtUUBKtjVW0xkeuK-" name="第 5 页">
+    <mxGraphModel dx="1018" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HUjSBIS_z2xSMIdHsfza-1" value="语音输入设备" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="300" y="780" width="150" height="684" as="geometry" />
+        </mxCell>
+        <mxCell id="HUjSBIS_z2xSMIdHsfza-2" value="Robot核心模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="500" y="780" width="150" height="684" as="geometry" />
+        </mxCell>
+        <mxCell id="HUjSBIS_z2xSMIdHsfza-3" value="服务端(Flask)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="714" y="780" width="150" height="684" as="geometry" />
+        </mxCell>
+        <mxCell id="HUjSBIS_z2xSMIdHsfza-4" value="第三方客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="938" y="780" width="150" height="684" as="geometry" />
+        </mxCell>
+        <mxCell id="HUjSBIS_z2xSMIdHsfza-5" value="ASR模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1138" y="780" width="150" height="684" as="geometry" />
+        </mxCell>
+        <mxCell id="HUjSBIS_z2xSMIdHsfza-6" value="LLM模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1338" y="780" width="150" height="684" as="geometry" />
+        </mxCell>
+        <mxCell id="HUjSBIS_z2xSMIdHsfza-7" value="TTS模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1538" y="780" width="150" height="684" as="geometry" />
+        </mxCell>
+        <mxCell id="HUjSBIS_z2xSMIdHsfza-8" value="Player模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1738" y="780" width="150" height="684" as="geometry" />
+        </mxCell>
+        <mxCell id="HUjSBIS_z2xSMIdHsfza-9" value="loop" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=40" vertex="1" parent="1">
+          <mxGeometry x="564" y="1115" width="460" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="HUjSBIS_z2xSMIdHsfza-10" value="[消息推送]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="HUjSBIS_z2xSMIdHsfza-9">
+          <mxGeometry x="40" width="420" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HUjSBIS_z2xSMIdHsfza-11" value="采集语音流" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="HUjSBIS_z2xSMIdHsfza-1" target="HUjSBIS_z2xSMIdHsfza-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="484" y="887" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HUjSBIS_z2xSMIdHsfza-12" value="发送音频数据" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="HUjSBIS_z2xSMIdHsfza-2" target="HUjSBIS_z2xSMIdHsfza-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="903" y="939" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HUjSBIS_z2xSMIdHsfza-13" value="转换文本结果" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="HUjSBIS_z2xSMIdHsfza-5" target="HUjSBIS_z2xSMIdHsfza-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1322" y="991" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HUjSBIS_z2xSMIdHsfza-14" value="生成回复文本" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="HUjSBIS_z2xSMIdHsfza-6" target="HUjSBIS_z2xSMIdHsfza-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1522" y="1043" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HUjSBIS_z2xSMIdHsfza-15" value="播放合成语音" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="HUjSBIS_z2xSMIdHsfza-7" target="HUjSBIS_z2xSMIdHsfza-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1722" y="1095" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HUjSBIS_z2xSMIdHsfza-16" value="POST /add_message" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="HUjSBIS_z2xSMIdHsfza-2" target="HUjSBIS_z2xSMIdHsfza-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="691" y="1193" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HUjSBIS_z2xSMIdHsfza-17" value="广播新消息(SocketIO)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="HUjSBIS_z2xSMIdHsfza-3" target="HUjSBIS_z2xSMIdHsfza-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="1245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HUjSBIS_z2xSMIdHsfza-18" value="GET /get_messages" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="HUjSBIS_z2xSMIdHsfza-4" target="HUjSBIS_z2xSMIdHsfza-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="913" y="1307" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HUjSBIS_z2xSMIdHsfza-19" value="返回JSON历史记录" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="HUjSBIS_z2xSMIdHsfza-3" target="HUjSBIS_z2xSMIdHsfza-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="1359" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
