@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.8" pages="2">
   <diagram name="第 1 页" id="kF5ivKEgYfZ40ZFE1cfE">
     <mxGraphModel dx="1928" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -241,6 +241,111 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1170" y="1311" as="sourcePoint" />
             <mxPoint x="1220" y="1261" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="i2LZ1irWIPoCR0dbc0Cz" name="第 2 页">
+    <mxGraphModel dx="1790" dy="1003" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="28P_qF4lR5tQPxpycGQv-1" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="743" as="geometry" />
+        </mxCell>
+        <mxCell id="28P_qF4lR5tQPxpycGQv-2" value="API_Gateway" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="281" y="20" width="150" height="743" as="geometry" />
+        </mxCell>
+        <mxCell id="28P_qF4lR5tQPxpycGQv-3" value="QA_Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="481" y="20" width="150" height="743" as="geometry" />
+        </mxCell>
+        <mxCell id="28P_qF4lR5tQPxpycGQv-4" value="Knowledge_Base" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="681" y="20" width="150" height="743" as="geometry" />
+        </mxCell>
+        <mxCell id="28P_qF4lR5tQPxpycGQv-5" value="LLM_API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="881" y="20" width="150" height="743" as="geometry" />
+        </mxCell>
+        <mxCell id="28P_qF4lR5tQPxpycGQv-6" value="Internet_Search" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1081" y="20" width="150" height="743" as="geometry" />
+        </mxCell>
+        <mxCell id="28P_qF4lR5tQPxpycGQv-7" value="Log_DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1281" y="20" width="150" height="743" as="geometry" />
+        </mxCell>
+        <mxCell id="28P_qF4lR5tQPxpycGQv-8" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="545" y="305" width="622" height="203" as="geometry" />
+        </mxCell>
+        <mxCell id="28P_qF4lR5tQPxpycGQv-9" value="[知识库未命中]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="28P_qF4lR5tQPxpycGQv-8">
+          <mxGeometry x="30" width="592" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="28P_qF4lR5tQPxpycGQv-10" value="提问&quot;推免申请截止日期？&quot;" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="28P_qF4lR5tQPxpycGQv-1" target="28P_qF4lR5tQPxpycGQv-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="234" y="129" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28P_qF4lR5tQPxpycGQv-11" value="路由请求" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="28P_qF4lR5tQPxpycGQv-2" target="28P_qF4lR5tQPxpycGQv-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="465" y="181" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28P_qF4lR5tQPxpycGQv-12" value="检索知识库" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="28P_qF4lR5tQPxpycGQv-3" target="28P_qF4lR5tQPxpycGQv-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="665" y="233" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28P_qF4lR5tQPxpycGQv-13" value="返回结构化答案" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="28P_qF4lR5tQPxpycGQv-4" target="28P_qF4lR5tQPxpycGQv-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="668" y="285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28P_qF4lR5tQPxpycGQv-14" value="生成答案" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="28P_qF4lR5tQPxpycGQv-3" target="28P_qF4lR5tQPxpycGQv-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="765" y="384" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28P_qF4lR5tQPxpycGQv-15" value="返回生成结果" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="28P_qF4lR5tQPxpycGQv-5" target="28P_qF4lR5tQPxpycGQv-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="768" y="436" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28P_qF4lR5tQPxpycGQv-16" value="补充检索" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="28P_qF4lR5tQPxpycGQv-3" target="28P_qF4lR5tQPxpycGQv-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="865" y="488" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28P_qF4lR5tQPxpycGQv-17" value="整合答案" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="28P_qF4lR5tQPxpycGQv-3" target="28P_qF4lR5tQPxpycGQv-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="468" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28P_qF4lR5tQPxpycGQv-18" value="返回答案+来源标注" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="28P_qF4lR5tQPxpycGQv-2" target="28P_qF4lR5tQPxpycGQv-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="237" y="604" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28P_qF4lR5tQPxpycGQv-19" value="记录对话(问题/答案/IP)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="28P_qF4lR5tQPxpycGQv-3" target="28P_qF4lR5tQPxpycGQv-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="965" y="658" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
